@@ -7,63 +7,6 @@ body {
     place-items: center;
 }
 
-.weather-container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.weather-header h1 {
-    margin: 0;
-    color: #00796b;
-}
-
-.weather-current {
-    margin: 20px 0;
-}
-
-.temperature {
-    font-size: 48px;
-    color: #ff5722;
-}
-
-.condition {
-    font-size: 24px;
-    color: #757575;
-}
-
-.weather-forecast {
-    margin-top: 20px;
-}
-
-.forecast {
-    display: flex;
-    justify-content: space-around;
-}
-
-.forecast-day {
-    background-color: #e0f2f1;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.forecast-day p {
-    margin: 5px 0;
-    color: #00796b;
-}
-
-
-
-
-
-
-
-
-
 .container{
     max-width: 500px;
     background-color: rgb(215, 215, 205);
