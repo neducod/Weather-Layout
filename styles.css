@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-header h1 {
+    margin: 0;
+    color: #00796b;
+}
+
+.weather-current {
+    margin: 20px 0;
+}
+
+.temperature {
+    font-size: 48px;
+    color: #ff5722;
+}
+
+.condition {
+    font-size: 24px;
+    color: #757575;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forecast-day {
+    background-color: #e0f2f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.forecast-day p {
+    margin: 5px 0;
+    color: #00796b;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    max-width: 500px;
+    background-color: rgb(215, 215, 205);
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+   /* text-align: center;... This was commented because I did not want the whole content of this class to be at the center*/
+}
+
+.header{
+    margin: 0;
+    display: flex;
+    gap: 300px;
+    color: #314946;
+}
+
+.weather{
+    text-align: center;
+}
+
+.weather #weather-number{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: wdth 300;
+  font-size: 60px;
+}
+
+.weather #text{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 10px;
+  color: gray;
+  /*padding-bottom: 180px;*/
+}
+
+.weather-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.weather-forecastt{
+    display: inline;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weather-info-a{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.weather-info-b{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.weather-info-c{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.weather-info #stormy{
+    width: 90px;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .weather-info {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .weather-forecastt {
+        gap: 20px;
+    }
+
+    .weather-info-a,
+    .weather-info-b,
+    .weather-info-c {
+        justify-content: center;
+    }
+
+    .weather-info #stormy {
+        width: 70px;
+    }
+}
